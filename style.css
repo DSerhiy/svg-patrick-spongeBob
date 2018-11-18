@@ -1,0 +1,52 @@
+.svg-img {
+  display: inline-block;  
+}
+
+/* patrick */
+.si-patrick {
+  width: 300px;
+  margin-right: 20px;   
+}
+.si-patrick__body {
+  fill:#31B600;
+  stroke:#304d03;
+}
+
+.si-patrick__body-dots {
+  fill: rgb(4, 73, 4);
+}
+
+.si-patrick__pants {
+  fill: #3A5DAE;
+}
+
+.si-patrick__pants-flowers {
+  fill: #F68D2E;
+  stroke:rgb(16, 0, 17);
+}
+
+/* Sponge Bob */
+.si-spongebob{
+  width: 250px;
+}
+
+.si-spongebob__body {
+  fill: #CC85DC;
+}
+
+.si-spongebob__body-stroke {
+  stroke:#4B0086;
+}
+
+.si-spongebob__body-dots {
+  fill: #4B0086;
+  stroke:#4B0086;
+}
+
+.si-spongebob__tie {
+  fill: rgb(64, 212, 27);
+}
+
+.si-spongebob__pants {
+  fill: #C8FFFF;
+}
