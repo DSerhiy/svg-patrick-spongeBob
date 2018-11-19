@@ -1,28 +1,39 @@
 .svg-img {
-  display: inline-block;  
+  display: inline-block;     
 }
 
 /* patrick */
+
 .si-patrick {
   width: 300px;
-  margin-right: 20px;   
+  margin-right: 20px;     
 }
 .si-patrick__body {
   fill:#31B600;
-  stroke:#304d03;
+  stroke:#304d03;  
 }
 
-.si-patrick__body-dots {
-  fill: rgb(4, 73, 4);
-}
-
-.si-patrick__pants {
-  fill: #3A5DAE;
-}
+.si-patrick__body-dots {fill: rgb(4, 73, 4);}
+.si-patrick__pants {fill: #3A5DAE;}
 
 .si-patrick__pants-flowers {
   fill: #F68D2E;
   stroke:rgb(16, 0, 17);
+}
+
+/* patrick hover */
+
+.si-patrick:hover .si-patrick__body {
+  fill:#fc886f;
+  stroke:#f13301;
+}
+
+.si-patrick:hover .si-patrick__body-dots {fill: #f13301;}
+.si-patrick:hover .si-patrick__pants {fill: #b2db1f;}
+
+.si-patrick:hover .si-patrick__pants-flowers {
+  fill: #7352a3;
+  stroke:#4d4987;
 }
 
 /* Sponge Bob */
